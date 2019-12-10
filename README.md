@@ -16,4 +16,6 @@
 - Matching the syntax that is already there.
 - Using modern techniques to achieve the result.
 
+---
+
 Good luck and feel free to get in contact if you have any questions.
