@@ -2,8 +2,8 @@
 
 ## Setup:
 - Clone the repo.
-- run `npm install` to install the required dependencies.
-- to run the local environment, run `gulp`.
+- Run `npm install` to install the required dependencies.
+- To run the local environment, run `gulp`.
 
 ## Task:
 - We would like you to write the JS and CSS to show the staff members when clicking on the button.
