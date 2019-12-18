@@ -12,7 +12,7 @@
 - Use ES6 (if you can) and _do not_ use jQuery.
 
 ## Bonus points:
-- If you can structure the JS in a way that would emulate how data would retrieved from a live database (think promises).
+- If you can structure the JS in a way that would emulate how data would be retrieved from a live database (think promises).
 - Matching the syntax that is already there.
 - Using modern techniques to achieve the result.
 
