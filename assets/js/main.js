@@ -1,52 +1,43 @@
-import data from './_incs/data'
+// Selectors
+const selectors = {
+  viewStaffBtn: '[el="staff-btn"]',
+}
 
-// DOM selectors
+// DOM nodes
 const nodes = {
-  viewStaffBtn: document.querySelector('[el="staff-btn"]'),
+  viewStaffBtn: null,
 }
 
 // Click event listeners
-function setClickEvents() {
-  nodes.viewStaffBtn.addEventListener('click', () => {
-    showStaffMembers()
-  })
+const setClickEvents = () => {
+
 }
 
 // Show the staff members to the user
-function showStaffMembers() {
+const showStaffMembers = () => {
 
 }
 
 // Load the staff members from the data
-function loadStaffMembers() {
+const loadStaffMembers = () => {
 
 }
 
 // Return the HTML markup for a staff member
-function getMemberTemplate(member) {
+const getMemberTemplate = member => {
   return `
     <li class="staff-member">
-      <div class="staff-member__inner">
-        <img class="staff-member__img" src="${member.img}" alt="Headshot photo of ${member.name}">
 
-        <div class="staff-member__details">
-          <h2 class="staff-member__name">${member.name}</h2>
-
-          <h3 class="staff-member__job">${member.occupation}</h3>
-
-          <div class="staff-member__team">${member.team}</div>
-        </div>
-      </div>
     </li>
   `
 }
 
 // Initialise the script
-function init() {
+const init = () => {
   setClickEvents()
 }
 
 // Wait for the DOM to be ready
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   init()
 })
